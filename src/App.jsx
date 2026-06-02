@@ -16,11 +16,11 @@ function App() {
     <>
     <Navbar/>
        <HeroSection/> 
-      {/* <About/> 
+       <About/> 
       <Skills/> 
      <Project/> 
      <Education/> 
-     <Contact/> */}
+     <Contact/> 
     </>
   )
 }
