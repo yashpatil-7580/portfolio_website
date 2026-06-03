@@ -19,12 +19,12 @@ export default function Project() {
   ];
   return (
     <>
-      <div className="bg-linear-to-r from-cyan-50 via-white to-cyan-50 min-h-screen">
+      <div className="bg-linear-to-r from-cyan-50 via-white to-cyan-50 min-h-screen ">
         <div className="flex flex-col mx-auto py-12 max-w-6xl gap-6  ">
           <h3 className="text-xl font-semibold">Projects</h3>
           <h2 className="text-2xl font-bold">Things I've Built</h2>
 
-          <div className="flex gap-6 items-start">
+          <div className="flex flex-wrap gap-6 justify-center items-start">
             {projects.map((elem, idx) => {
               return (
                 <ProjectCard
@@ -36,7 +36,7 @@ export default function Project() {
                 />
               );
             })}
-          </div>
+          </div> 
         </div>
       </div>
     </>

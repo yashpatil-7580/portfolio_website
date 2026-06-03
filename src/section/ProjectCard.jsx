@@ -1,7 +1,7 @@
 export default function ProjectCard(props) {
   return (
     <>
-      <div className="group border border-cyan-100 shadow-md  w-lg  overflow-hidden rounded-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+      <div className="group border border-cyan-100 shadow-md  w-full max-w-lg  overflow-hidden rounded-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
         <div className="h-48 overflow-hidden">
           <img
             className="w-full h-full transition-all duration-300 group-hover:scale-105 object-cover text-2xl bg-linear-to-r from-blue-400 to-cyan-100"
@@ -9,8 +9,8 @@ export default function ProjectCard(props) {
             alt="Task App"
           />
         </div>
-         <h2 className="text-2xl font-semibold">{props.title}</h2>
-        <div className="hidden group-hover:block">
+         <h2 className="text-2xl font-semibold p-4">{props.title}</h2>
+        <div className="block hover:-translate-y-1 hover:shadow-xl">
 
           <div className="flex flex-col gap-4 p-4 ">
             <p>{props.description}</p>

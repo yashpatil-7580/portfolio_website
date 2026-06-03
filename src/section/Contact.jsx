@@ -7,8 +7,8 @@ export default function Contact() {
   return (
     <>
       
-      <div className="flex justify-evenly mx-auto py-12 px-14 w-full gap-14 bg-gray-950 text-white ">
-        <div className="flex flex-col  gap-2 w-80 ">
+      <div className="flex flex-col md:flex-row justify-evenly mx-auto py-12 px-4 md:px-14 w-full gap-14 bg-gray-950 text-white ">
+        <div className="flex flex-col  gap-2 w-full md:w-80 ">
           <h3 className="text-xl font-semibold">Yash's Portfolio</h3>
           <p className="text-lg text-gray-300">
             Thank you for visiting my personal portfolio website. Connect with
@@ -23,7 +23,7 @@ export default function Contact() {
           </div>
         </div>
 
-        <div className="flex flex-col  gap-2 w-80 ">
+        <div className="flex flex-col  gap-2 w-full md:w-80">
           <h3 className="text-xl font-semibold">Contact details</h3>
             <div className="text-lg">
               <p className="flex items-center gap-1.5"><IoMdMail /> yashpatil900596@gmail.com</p>
@@ -32,7 +32,7 @@ export default function Contact() {
             </div>
         </div>
 
-        <div className="flex flex-col  items-start gap-2 w-80 ">
+        <div className="flex flex-col  items-start gap-2 w-full md:w-80">
           <h3 className="text-xl font-semibold">Send Message</h3>
           <input
             className="border h-10 rounded-2xl px-2 bg-gray-900 border-gray-700 focus:outline-none focus:border-cyan-400"
