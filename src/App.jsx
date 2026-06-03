@@ -21,6 +21,8 @@ function App() {
       <Project/> 
      <Education/> 
      <Contact/>    
+
+
     </>
   )
 }
