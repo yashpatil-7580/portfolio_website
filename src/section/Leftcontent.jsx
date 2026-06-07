@@ -20,8 +20,8 @@ export default function LeftContent(){
                        View Projects
                       </button>
                   <div className="flex gap-6 pt-2">
-                      <FaLinkedin className="text-3xl cursor-pointer transition-all duration-500 hover:text-cyan-500 hover:scale-110" />
-                       <FaGithub className="text-3xl cursor-pointer transition-all duration-500 hover:text-cyan-500 hover:scale-110" />
+                    <a href="https://www.linkedin.com/in/yash-patil-abc7580" target="_blank" rel="noopener noreferrer"><FaLinkedin className="text-3xl cursor-pointer transition-all duration-500 hover:text-cyan-500 hover:scale-110" /></a>
+                       <a href="https://github.com/yashpatil-7580" target="_blank" rel="noopener noreferrer"><FaGithub className="text-3xl cursor-pointer transition-all duration-500 hover:text-cyan-500 hover:scale-110" /></a>
                  </div>
             </div>
            

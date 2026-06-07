@@ -10,8 +10,6 @@ import Skills from './section/Skills'
 
 
 function App() {
-  
-
   return (
     <>
         <Navbar/>

@@ -61,7 +61,7 @@ export default function Skills(){
 
     return(
         <>
-        <div className="py-16 md:py-24 bg-linear-to-br from-slate-50 via-cyan-50 to-blue-50">
+        <div id="skills" className="py-16 md:py-24 bg-linear-to-br from-slate-50 via-cyan-50 to-blue-50">
           <div className="flex flex-col  gap-6 max-w-6xl mx-auto py-12  ">
             <h3 className="text-xl font-semibold accent-cyan-200 ">SKILLS</h3>
             <h2 className="text-xl md:text-2xl font-bold">Technologies I Work With :</h2>

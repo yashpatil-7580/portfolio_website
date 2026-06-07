@@ -20,7 +20,7 @@ export default function Education() {
 
   return (
     <>
-    <div className="bg-linear-to-r from-blue-50 to-cyan-50 min-h-screen">
+    <div id="education" className="bg-linear-to-r from-blue-50 to-cyan-50 min-h-screen">
       <div className="flex flex-col  mx-auto py-12 max-w-6xl gap-6  ">
         <h3 className="text-xl font-semibold">Education</h3>
         <h2 className="text-2xl font-bold">My Academic Journey</h2>
