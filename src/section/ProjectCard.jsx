@@ -27,12 +27,20 @@ export default function ProjectCard(props) {
               })}
             </div>
             <div className="flex gap-4 mt-2">
-              <button className="px-4 py-2 rounded-xl border border-cyan-300 bg-cyan-100 font-semibold transition-all duration-300 hover:bg-cyan-200 cursor-pointer hover:scale-105">
+              <a 
+              href={props.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 rounded-xl border border-cyan-300 bg-cyan-100 font-semibold transition-all duration-300 hover:bg-cyan-200 cursor-pointer hover:scale-105">
                 GitHub
-              </button>
-              <button className="px-4 py-2 rounded-xl bg-cyan-500 text-white font-semibold transition-all duration-300 hover:bg-cyan-600 cursor-pointer hover:scale-105">
+              </a>
+              <a
+              href={props.livedemo}
+              target="_blank"
+              rel="noopener noreferrer"
+               className="px-4 py-2 rounded-xl bg-cyan-500 text-white font-semibold transition-all duration-300 hover:bg-cyan-600 cursor-pointer hover:scale-105">
                 Live Demo
-              </button>
+              </a>
             </div>
           </div>
 
