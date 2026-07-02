@@ -1,4 +1,5 @@
 import task from "../assets/task.jpg";
+import portfolio from "../assets/image.png";
 import ProjectCard from "./ProjectCard";
 export default function Project() {
   const projects = [
@@ -14,7 +15,7 @@ export default function Project() {
       description:
         "A full-stack task management application with JWT authentication, PostgreSQL integration, and CRUD functionality.",
       techStack: ["React", "Tailwind CSS"],
-      image: task,
+      image: portfolio,
     },
   ];
   return (
